@@ -1,0 +1,148 @@
+/* Style applied throughout */
+:root {
+    --bright-turqoise: turquoise;
+    --white: antiquewhite;
+    --light: #fff;
+    --font: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: var(--bright-turqoise);
+    color: var(--white);
+    font-family: var(--font);
+}
+
+h1 {
+    font-size: 200%;
+}
+
+main {
+    width: 96%;
+    margin: 2rem auto;
+    font-family: var(--font);
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    min-width: 300px;
+}
+
+nav a {
+    background-color: unset;
+    color: var(--white);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+nav a:hover {
+    color: var(--light);
+}
+
+
+.about-me {
+    display: flex;
+    align-items: flex-start;
+    width: 90%;
+    margin: 1% auto;
+    height: 200px;
+}
+
+.about-me-description {
+    display: flex;
+    align-items: center;
+    font-size: 200%;
+    border-right: 5px solid black;
+    padding: 50px 50px 50px 50px;
+}
+
+.about-me-info {
+    margin-left: 3%;
+    flex: 0 0 60%;
+    font-size: 100%;
+    height: 100%;
+}
+
+.my-photo {
+    float: left;
+    width: 20%;
+    padding: 5px 5px 5px 5px;
+}
+
+.work {
+    display: flex;
+    align-items: flex-start;
+    width: 90%;
+    margin: 1% auto;
+    height: 200px;
+}
+
+.work-description{
+    display: flex;
+    align-items: center;
+    font-size: 200%;
+    border-style: dashed;
+    padding: 50px 120px 50px 50px;
+}
+
+.work-info {
+    margin-left: 3%;
+    flex: 0 0 60%;
+    font-size: 100%;
+    height: 100%;
+    border-style: dashed;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: var(--bright-turqoise);
+    color: var(--white);
+}
+/* 
+.sidebar {
+    font-size: large;
+    float: left;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+/
+.column {
+    flex: 1 0 100%;
+    flex-direction: column;
+    padding: 1.5rem;
+    
+    transition: flex-basis 500ms linear;
+    margin-bottom: 1.5rem;
+}
+
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100%;
+    padding: 2rem;
+    color: var(--heliotrope);
+}
+
+*/

@@ -16,9 +16,9 @@
         <h1>Maryam Guppy</h1>
         <nav>
             <ul>
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Contact Me</a></li>
+                <li><a href="#About Me">About Me</a></li>
+                <li><a href="#Work">Work</a></li>
+                <li><a href="#Contact Me">Contact Me</a></li>
                 <li><a href="#">Resume</a></li>
             </ul>
         </nav>
@@ -32,7 +32,7 @@
         </div>
         <section class="about-me">
             <div class="about-me-description">
-                <h2>About Me</h2>
+                <h2 id ="About Me">About Me</h2>
             </div>
             <div class="about-me-info">
                 <p>
@@ -48,23 +48,43 @@
 
 
         </section>
-        <section class="work">
-            <div class="work-description">
-                <h2>Work</h2>
+        <section class="about-me">
+            <div class="about-me-description">
+                <h2 id = "Work">Work</h2>
             </div>
-            <div class="work-info">
-                <p>
-                    <img class="refactoring" src="Images/refactoring-image.jpeg" alt="refactoring">
-                </p>
+            <div class="about-me-info">
+                <div class = "Horisseon-item-container">
+                <a href="https://mguppy.github.io/refactor/">
+                    <div class ="bottom-left">
+                        <h2>Code Refactoring</h2>
+                        <p>HTML/CSS</p>
+                    </div>
+                    <img src = "./Images/Screenshot.png" alt = "Horisseon" class="Horisseon-item-img">
+                </a>
+                </div>  
+                <div class = "other-code-container">
+                <a href="#" class="small-card">
+                    <div class ="bottom-left">
+                        <h2> LED Wall</h2>
+                        <p>HTML/CSS</p>    
+                    </div>
+                    <img src = "Images/refactoring-image.jpeg" alt = "LED Wall" class="small-card-img">
+                </a>
+                </div>
+                <div class = "other-code-container">
+                <a href="#" class="small-card">
+                    <div class ="bottom-left">
+                        <h2>Calculator</h2>
+                        <p>HTML/CSS</p>
+                    </div>
+                    <img src = "Images/refactoring-image.jpeg" alt = "Calculator" class="small-card-img">
+                </a>
             </div>
-
         </section>
-
-
     </main>
 
     <footer>
-        <h1>Contact Me</h1>
+        <h1 id = "Contact Me">Contact Me</h1>
         <nav>
             <ul>
                 <li><a href="#">(501)952-5221</a></li>
